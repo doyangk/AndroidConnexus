@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Connexus</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login With Gmail</string>
+    <string name="loginb">Login</string>
+    <string name="viewstreamb">View Streams</string>
+    <string name="gmailid">Gmail ID</string>
+    <string name="gmailpassword">Gmail Password</string>
+    <string name="title_activity_view_streams">ViewStreamsActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

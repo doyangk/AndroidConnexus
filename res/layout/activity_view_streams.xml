@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--  
+    <ProgressBar                
+        android:layout_width="15dip"       
+        android:layout_height="15dip"
+        android:id="@+id/progress" 
+        android:layout_centerInParent="true"
+        />
+    
+    <ImageView
+        android:id="@+id/image"       
+        android:layout_width="fill_parent"       
+        android:layout_height="75dip"
+        />
+        -->
+
+    
+     <GridView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:numColumns="4"
+        android:stretchMode="columnWidth" 
+        android:layout_above="@+id/searchView1"
+        >
+    </GridView>
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="My Subscribed Streams" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:text="Search" />
+
+    <SearchView
+        android:id="@+id/searchView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/button3" 
+        android:hint="Find streams"
+        android:background="@drawable/back"
+        >
+
+    </SearchView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:text="Nearby"
+        />
+
+</RelativeLayout>
